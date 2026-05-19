@@ -1,18 +1,33 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=23911114)
-# Unit Deliverable 3 - Final Project
+# Fitness Tracker
 
-Feel free to edit this file to contain a description of your project, as well as your UML diagram and GUI wireframe images. You can simply add them to your project directory and use a relative path, or upload them to [imgur](https://imgur.com/upload).
+## Description
 
-Use [Markdown](https://gist.github.com/cuonggt/9b7d08a597b167299f0d) to format appropriately. 
+Fitness Tracker is an application that lets users log their cardio and weight training workouts to estimate heart rate and calories burned. The inspiration for this project came from the iPhone Fitness App. I wanted to recreate a simplified version that captures the core idea of logging a workout and getting useful feedback back. Using my previous work from UD1 and UD2, I built a 6 scene application backed by my abstract `Workout` superclass with `Cardio` and `Weight` subclasses, plus a `WorkoutManager` to track totals across sessions.
 
 ## Demo
 
-Place the animated image of your project demo here!
+![Animation.gif](src/src/Wireframe/Animation.gif)
+
 
 ## UML Diagram
 
-Place your UML diagram image here! Make sure they're updated to be accurate to your final project!
+![UML Diagram](src/src/resources/UMLDiagram.svg)
 
 ## Wireframe
 
-Place your wireframe image(s) here! Make sure they're updated to be accurate to your final project!
+![GUI Wireframe](src/src/Wireframe/Screenshot%202026-05-18%20225515.png)
+![Screenshot 2026-05-18 225521.png](src/src/Wireframe/Screenshot%202026-05-18%20225521.png)
+![Screenshot 2026-05-18 225527.png](src/src/Wireframe/Screenshot%202026-05-18%20225527.png)
+![Screenshot 2026-05-18 225533.png](src/src/Wireframe/Screenshot%202026-05-18%20225533.png)
+![Screenshot 2026-05-18 225541.png](src/src/Wireframe/Screenshot%202026-05-18%20225541.png)
+![Screenshot 2026-05-18 225626.png](src/src/Wireframe/Screenshot%202026-05-18%20225626.png)
+## UD1 Concepts Used
+
+- **Abstraction** 
+- **Inheritance** 
+- **Encapsulation** 
+- **Polymorphism** 
+- **Composition / Aggregation** 
+- **Exception handling**
+- **Overriding 
+

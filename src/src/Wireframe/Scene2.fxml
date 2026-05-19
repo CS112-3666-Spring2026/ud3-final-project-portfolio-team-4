@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene2Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09518f" height="168.0" layoutX="156.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="288.0" />
+      <Text fill="WHITE" layoutX="176.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WHICH WORKOUT WOULD YOU LIKE TO TRACK?" textAlignment="CENTER" wrappingWidth="247.42578125">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="cardioButton" layoutX="60.0" layoutY="269.0" mnemonicParsing="false" onAction="#switchToScene4" prefHeight="60.0" prefWidth="116.0" text="CARDIO" />
+      <Button fx:id="weightButton" layoutX="423.0" layoutY="269.0" mnemonicParsing="false" onAction="#switchToScene3" prefHeight="60.0" prefWidth="116.0" text="STRENGTH" />
+   </children>
+</AnchorPane>

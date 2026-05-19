@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene3Controller">
+   <children>
+      <TextField fx:id="repsInt" layoutX="232.0" layoutY="289.0" />
+      <TextField fx:id="setsInt" layoutX="235.0" layoutY="188.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09518f" height="54.0" layoutX="227.0" layoutY="124.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+      <Text fill="WHITE" layoutX="273.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter # of sets" textAlignment="CENTER" wrappingWidth="73.13671875" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09518f" height="54.0" layoutX="224.0" layoutY="225.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+      <Text fill="WHITE" layoutX="270.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter # of Reps" textAlignment="CENTER" wrappingWidth="73.13671875" />
+      <TextField fx:id="durationInt" layoutX="235.0" layoutY="80.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09518f" height="62.0" layoutX="227.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="165.0" />
+      <Text fill="WHITE" layoutX="273.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Duration in min" textAlignment="CENTER" wrappingWidth="73.13671875" />
+      <Button fx:id="enterWeightOutput" layoutX="250.0" layoutY="330.0" mnemonicParsing="false" onAction="#validateInput" prefHeight="25.0" prefWidth="100.0" text="Enter" />
+      <Label fx:id="invalidInput" layoutX="14.0" layoutY="34.0" prefHeight="69.0" prefWidth="191.0" text="FILL ALL BOXES WITH WHOLE NUMBERS!">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

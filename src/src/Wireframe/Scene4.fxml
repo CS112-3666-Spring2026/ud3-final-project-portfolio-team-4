@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene4Controller">
+   <children>
+      <TextField fx:id="durationInt" layoutX="226.0" layoutY="107.0" />
+      <TextField fx:id="milesInput" layoutX="227.0" layoutY="256.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09518f" height="89.0" layoutX="200.0" layoutY="9.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09518f" height="89.0" layoutX="201.0" layoutY="153.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fill="WHITE" layoutX="243.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input Duration in min" />
+      <Text fill="WHITE" layoutX="260.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Input # of miles" />
+      <Button fx:id="cardioInputButton" layoutX="254.0" layoutY="296.0" mnemonicParsing="false" onAction="#validateInput" prefHeight="25.0" prefWidth="92.0" text="ENTER" />
+      <Label fx:id="invalidInput" layoutX="11.0" layoutY="112.0" text="FILL ALL BOXES WITH WHOLE NUMBERS!">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

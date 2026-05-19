@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09518f" height="194.0" layoutX="144.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="324.0" />
+      <Button fx:id="startButton" layoutX="228.0" layoutY="241.0" mnemonicParsing="false" onAction="#onStart" prefHeight="43.0" prefWidth="145.0" text="Start" />
+      <Text fill="WHITE" layoutX="250.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FITNESS TRACKER" textAlignment="CENTER" wrappingWidth="123.267578125">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
